@@ -2,7 +2,6 @@
 
 import { NewToDoForm } from "@/_components/new-todo-form";
 import { useMutation, useQuery } from "convex/react";
-import { useState } from "react";
 import { api } from "../../convex/_generated/api";
 import { Id } from "../../convex/_generated/dataModel";
 
