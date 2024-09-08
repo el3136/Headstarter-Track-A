@@ -39,6 +39,7 @@ export function NewToDoForm() {
           onChange={e => setDescription(e.target.value)} 
         />
         <button className="bg-blue-500 p-1 rounded text-white" type="submit">Create</button>
+        {/* <button style={{ --tw-bg-opacity: 1; background-color: rgb(59 130 246 / var(--tw-bg-opacity)); padding: 0.25rem; border-radius: 0.25rem; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity));  }} type="submit">Create</button> */}
       </div>
     </form>
   )
