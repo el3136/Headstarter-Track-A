@@ -15,9 +15,11 @@ export default function Home() {
           <h1 className="text-xl font-bold">Task List Management</h1>
           <UserButton />
         </div>
-        <ToDoList />
         <GenerateToDoForm />
+        <h1 className="text-xl font-bold">Add Individual Tasks</h1>
         <NewToDoForm />
+        <h1 className="text-xl font-bold">Task List</h1>
+        <ToDoList />
       </Authenticated>
       
       <Unauthenticated>
