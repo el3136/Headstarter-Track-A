@@ -31,7 +31,7 @@ export function GenerateToDoForm() {
     <form onSubmit={handleSubmit}>
       {/* <div className="flex flex-col gap-2"> */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-        <h2 id="Gen1" className="font-semibold text-lg">Generate Tasks with AI!</h2>
+        <h2 className="font-semibold text-lg">Generate Tasks with AI!</h2>
         <label className="text-sm font-semibold" htmlFor="prompt">Prompt</label>
         <input 
           className="p-1 border rounded"

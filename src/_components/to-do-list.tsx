@@ -31,6 +31,7 @@ function ToDoItem({ id, title, description, completed }: {
 
   return (
     <li className="w-full flex items-center gap-2 border rounded p-2">
+      <button type="button" className="text-red-500" onClick={() => deleteTodo({ id })}>Remove</button>
       <input 
         type="checkbox" 
         checked={completed} 
@@ -39,9 +40,6 @@ function ToDoItem({ id, title, description, completed }: {
       <div>
         <p className="font-semibold">{title}</p>
         <p className="text-sm text-gray-600">{description}</p>
-      </div>
-      <div className="ml-auto">
-        <button type="button" className="text-red-500" onClick={() => deleteTodo({ id })}>Remove</button>
       </div>
     </li>
   )
