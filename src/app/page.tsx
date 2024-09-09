@@ -4,6 +4,7 @@ import { Authenticated, AuthLoading, Unauthenticated } from "convex/react";
 import { NewToDoForm } from "@/_components/new-todo-form";
 import { ToDoList } from "@/_components/to-do-list";
 import { SignInButton, UserButton } from "@clerk/nextjs";
+import { GenerateToDoForm } from "@/_components/generate-todos-form";
 
 export default function Home() {
 
@@ -14,8 +15,8 @@ export default function Home() {
           <h1 className="text-xl font-bold">To-Do List</h1>
           <UserButton />
         </div>
-        
         <ToDoList />
+        <GenerateToDoForm />
         <NewToDoForm />
       </Authenticated>
       
