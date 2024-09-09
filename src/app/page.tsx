@@ -12,7 +12,7 @@ export default function Home() {
     <div className="max-w-screen-md mx-auto p-4 space-y-4">
       <Authenticated>
         <div className="flex items-center justify-between">
-          <h1 className="text-xl font-bold">To-Do List</h1>
+          <h1 className="text-xl font-bold">Task List Management</h1>
           <UserButton />
         </div>
         <ToDoList />
